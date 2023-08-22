@@ -16,7 +16,7 @@ const apiKey="9b6600d1c70e8dcf322afd639f8efb5e";
                 document.querySelector(".humidity").innerHTML=data.main.humidity+"%";
                 document.querySelector(".wind").innerHTML=data.wind.speed+"km/h";
                 if(data.weather[0].main== "Clouds"){
-                    weatherIcon.src="rain.png";
+                    weatherIcon.src="clear.png";
                 }
                 else if(data.weather[0].main== "Clear"){
                     weatherIcon.src="cloud.png";
